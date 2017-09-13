@@ -1,0 +1,30 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+.wrapper {
+    width: 480px;
+    margin: auto;
+}
+.article {
+    margin-top: 50px;
+}
+h1 {
+    color: #515d77;
+    font-size: 25px;
+    font-family: Gill Sans MT Condensed;
+    margin-bottom: 25px;
+    
+}
+h2 {
+    color: #515d77;
+    font-size: 14;
+    font-family: Arial;
+    margin-bottom: 25px;
+}
+p {
+    color: #4e5050;
+    font-size: 12px;
+    font-family: Arial;
+}
