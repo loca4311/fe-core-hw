@@ -11,6 +11,10 @@
 .article {
     padding-top: 50;
 }
+.plane {
+    width: 480px;
+    margin-bottom: 25;
+}
 
 h1 {
     color: #515d77;
