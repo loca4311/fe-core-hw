@@ -18,6 +18,7 @@
 }
 
 h1 {
+    text-transform: uppercase;
     color: #515d77;
     font-size: 25px;
     font-family: Gill Sans MT Condensed;
