@@ -1,0 +1,21 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+.wrapper {
+    width: 480px;
+    margin:  auto;
+    padding-top: 0px;
+    
+}
+ul {
+    list-style-image: url(images/arrow.jpg);
+}
+li {
+    color: #515d77;
+    font-size: 14px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-bottom: 20px;
+    padding-left: 15px;
+}
