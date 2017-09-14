@@ -27,7 +27,8 @@ h1 {
 h2 {
     color: #515d77;
     font-family: Arial, Helvetica, sans-serif;
-    margin-bottom: 14px;
+    font-size: 14px;
+    margin-bottom: 25px;
 }
 p {
     color: #4e5050;
