@@ -9,7 +9,7 @@
     
 }
 .article {
-    padding-top: 50;
+    margin-top: 50px;
 }
 .plane {
     width: 480px;
@@ -26,7 +26,7 @@ h1 {
 h2 {
     color: #515d77;
     font-family: Arial;
-    margin-bottom: 25px;
+    margin-bottom: 14px;
 }
 p {
     color: #4e5050;
