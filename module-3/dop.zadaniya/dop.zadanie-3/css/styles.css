@@ -3,19 +3,26 @@
     margin: 0;
     padding: 0;
 }
+
 .wrapper {
     width: 480px;
-    margin:  auto;
+    margin: auto;
     padding-top: 0px;
-    
 }
+
+.indents {
+    margin-bottom: 20px;
+}
+
 ul {
     list-style-image: url(images/arrow.jpg);
+    margin: 0;
+    padding: 0;
 }
+
 li {
     color: #515d77;
     font-size: 14px;
     font-family: Arial, Helvetica, sans-serif;
-    margin-bottom: 20px;
     padding-left: 15px;
 }
