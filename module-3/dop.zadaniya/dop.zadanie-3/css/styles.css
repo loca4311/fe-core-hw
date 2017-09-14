@@ -10,8 +10,11 @@
     padding-top: 0px;
 }
 
-.indents {
+.margin {
     margin-bottom: 20px;
+}
+.no-margin {
+    margin: 0;
 }
 
 ul {
