@@ -12,9 +12,35 @@
 .article {
     margin-top: 50px;
 }
+.last-article {
+    margin-top: 105px;
+    margin-bottom: 40px;
+}
 .plane {
     width: 480px;
     margin-bottom: 25px;
+}
+.indents {
+    margin-bottom: 30px;
+}
+.no-indents {
+    margin: 0;
+}
+.box {
+    position:relative; left:35px;
+    width: 325px;
+}
+.margin {
+    margin-bottom: 20px;
+}
+.margin {
+    margin-bottom: 20px;
+}
+.wrap ul {
+    list-style-position: inside;
+    column-count: 2;
+    list-style-type: decimal;
+    height: 175px;
 }
 
 h1 {
@@ -35,4 +61,20 @@ p {
     color: #4e5050;
     font-size: 12px;
     font-family: Arial, Helvetica, sans-serif;
+}
+
+
+ul {
+    list-style-image: url(images/arrow.jpg);
+    margin: 0;
+    padding: 0;
+}
+
+li {
+    list-style-type: none;
+    color: #515d77;
+    font-size: 14px;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-left: 15px;
+    
 }
