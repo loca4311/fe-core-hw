@@ -1,0 +1,55 @@
+* {
+    box-sizing: border-box; 
+    padding: 0;
+    margin: 0;
+    
+}
+
+.wrapper {
+    width: 736px;
+    margin: auto;
+    padding-top: 0px;
+}    
+
+.header {
+    padding: 20px;
+    background: url(../img/fone.png);   
+    margin-top: 10px;
+    border-radius: 2px;
+    box-shadow: 0 0 3px 3px rgba(0, 0, 0, 0.3);
+}
+
+
+
+.menu {
+    display: inline-block;
+    
+    list-style: none;
+    font-size: 0;
+    padding: 20px;
+}
+
+.menu-item {
+    display: inline-block;
+    
+    font-size: 16px;
+    margin-right: 60px;
+}
+
+.menu-item:last-child {
+    margin-right: 0;
+}
+
+.menu-link {
+    text-transform: uppercase;
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+}
+
+.menu-link:hover {
+    color: #263555; 
+}
+
+#current {
+    color: #263555; 
+}
