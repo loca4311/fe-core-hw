@@ -11,7 +11,6 @@
 }
 
 .list {
-    display: inline-block;
     list-style: none;
     column-count: 2;
 }
@@ -35,11 +34,6 @@ li::before {
 
 }
 
-.list {
-    display: inline-block;
-    list-style: none;
-    column-count: 2;
-}
  
 a {
     text-decoration: none;
