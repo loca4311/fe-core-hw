@@ -20,11 +20,11 @@
 .list-item:nth-of-type(3n+1){
     background: #ffffff
 }
-.list-item:nth-of-type(3n-1){
+.list-item:nth-of-type(3n+2){
     background: #ddd;
 }
 
-.list-item:nth-of-type(3n):nth-last-of-type(3n+1){
+.list-item:nth-last-of-type(3n+1){
     background: #bbb
 
 }
