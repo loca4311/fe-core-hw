@@ -6,9 +6,11 @@
 }
 
 .wrapper {
-    width: 736px;
+    height: 500px;
+    width: 900px;
     margin: auto;
     padding-top: 0px;
+    background-color: #88A0A8
 } 
 
 .main {
