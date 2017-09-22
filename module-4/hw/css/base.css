@@ -1,0 +1,45 @@
+* {
+    box-sizing: border-box; 
+    padding: 0;
+    margin: 0;
+    
+}
+
+body {
+    background: url(../img/bg.jpg);
+    background: cover;
+}
+
+.wrapper {
+    width: 1024px;
+    margin: auto;
+    padding: 118px 60px 54px 60px;
+    margin-top: 230px;
+    background: #ffffff;
+
+    
+    
+} 
+
+.head {
+    
+    text-transform: uppercase;
+    color: #263555;
+    font-size: 32px;
+    font-family: Gill Sans MT Condensed;
+    
+    margin-bottom: 50px;
+}
+
+.clearfix::after {
+    display: block;
+    content: '';
+    clear: both;
+}
+
+hr {
+    border: none;
+    background-color: #dedbdb;
+    height: 1px;
+    margin-bottom: 58px;
+}
