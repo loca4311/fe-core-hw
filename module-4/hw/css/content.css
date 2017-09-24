@@ -61,3 +61,34 @@ a {
     padding-left: 15px;
 }
 
+.content-right {
+    float: right;
+    width: 30%;
+    
+}
+
+.quote {
+    border: 1px solid #dfdcdc;
+    color: #263555;
+    line-height: 1.5;
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    margin-bottom: 62px;
+    padding: 22px;
+}
+
+.director {
+    color: #263555;
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.post {
+    color: #4e5050;
+    font-size: 13px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
