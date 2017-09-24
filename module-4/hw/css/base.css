@@ -37,10 +37,15 @@ body {
     clear: both;
 }
 
-hr {
+.line {
     border: none;
     background-color: #dedbdb;
     height: 1px;
     margin-bottom: 58px;
 }
 
+.clearfix::after {
+    display: block;
+    content: '';
+    clear: both;
+}
