@@ -18,17 +18,21 @@ body {
 
 .logo {
     display: inline-block;
+    
     height: 138px;
     width: 138px;
-    position: relative;
+    
     border-radius: 50%;
     background-color: #ffffff;
     
 }
 
 .home-page {
-    text-decoration: none;
     
+    display: block;
+    text-decoration: none;
+    text-align: center;
+    line-height: 138px;
     font-size: 60px;
     font-family: Dorsa, Regular Arial, sans-serif;
     text-transform: uppercase;
