@@ -6,20 +6,34 @@
 }
 
 body {
-    background: url(../img/bg.jpg);
+    
+    background: url(../img/bg.jpg) no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
     
 }
 
 .wrapper {
     width: 1024px;
     margin: auto;
-    padding: 118px 60px 54px 60px;
+    
     margin-top: 230px;
     background: #ffffff;
 
     
     
 } 
+
+.first-content {
+    padding: 118px 60px 54px 60px;
+}
+
+.second-content {
+    padding-right: 60px;
+    padding-bottom: 54px;
+    padding-left: 60px;
+    margin-bottom: 88px;
+}
 
 .head {
     
@@ -42,6 +56,12 @@ body {
     background-color: #dedbdb;
     height: 1px;
     margin-bottom: 58px;
+}
+
+.footer {
+    width: 100%;
+    height: 200px;
+    background: #30455b;
 }
 
 .clearfix::after {
