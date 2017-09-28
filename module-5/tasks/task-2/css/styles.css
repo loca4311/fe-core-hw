@@ -23,7 +23,15 @@ nav {
     position: relative;
 }
 
-.logo {
+.page-header {
+    padding-top: 104px;
+    padding-right: 100px;
+    padding-left: 100px;
+    padding-bottom: 126px;
+    
+}
+
+.home-page {
     position: absolute;
     left: 50%;
     top: 50%;
@@ -37,10 +45,6 @@ nav {
     border-radius: 50%;
     background-color: #ffffff;
     
-}
-
-.home-page {
-    
     display: block;
     text-decoration: none;
     text-align: center;
@@ -49,17 +53,18 @@ nav {
     font-family: Dorsa, Regular Arial, sans-serif;
     text-transform: uppercase;
     color: #263555;
+    
 }
 
 
 .menu {
-    height: 230px;
+    
     width: 100%;
     list-style: none;
     text-transform: uppercase;
     font-size: 28px;
     font-family: Pathway Gothic One;
-    padding-top: 104px;
+    
     
    
 
@@ -76,14 +81,14 @@ nav {
 }
 
 .menu-item:first-child {
-    margin-left: 100px;
+    margin-left: 0;
 }
 .menu-item:nth-child(3) {
      margin-right: 200px;
 }
 
 .menu-item:last-child {
-    margin-right: 100px;
+    margin: 0;
 }
 
 .menu-item >a {
