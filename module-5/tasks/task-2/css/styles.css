@@ -1,0 +1,89 @@
+* {     
+    box-sizing: border-box;
+    
+    padding: 0;
+    margin: 0;
+    
+}
+
+body {
+    min-height: 100vh;
+    background: url(../img/bg.jpg);
+    background-size: 100%;
+    background-attachment: fixed;
+
+}
+
+.wrapper {
+    width: 1024px;
+    margin: auto;
+}
+
+
+
+.logo {
+    display: inline-block;
+    
+    height: 138px;
+    width: 138px;
+    
+    border-radius: 50%;
+    background-color: #ffffff;
+    
+}
+
+.home-page {
+    
+    display: block;
+    text-decoration: none;
+    text-align: center;
+    line-height: 138px;
+    font-size: 60px;
+    font-family: Dorsa, Regular Arial, sans-serif;
+    text-transform: uppercase;
+    color: #263555;
+}
+
+
+.menu {
+    width: 100%;
+    list-style: none;
+    text-transform: uppercase;
+    font-size: 28px;
+    font-family: Pathway Gothic One;
+    padding-top: 104px;
+    
+   
+
+}
+
+.menu-item {
+    
+    
+    float: left;
+    margin-right: 30px;
+    margin-left: 30px;
+   
+    
+}
+
+.menu-item >a {
+    
+    text-decoration: none;
+    color: #ffffff;
+
+    
+}
+
+.menu-item >a:hover {
+    color: #263555;
+}
+
+
+
+
+.clearfix::after {
+    display: block;
+    content: '';
+    clear: both;
+}
