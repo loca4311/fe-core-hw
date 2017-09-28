@@ -19,10 +19,17 @@ body {
     margin: auto;
 }
 
-
+nav {
+    position: relative;
+}
 
 .logo {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
     display: inline-block;
+    
     
     height: 138px;
     width: 138px;
@@ -46,6 +53,7 @@ body {
 
 
 .menu {
+    height: 230px;
     width: 100%;
     list-style: none;
     text-transform: uppercase;
@@ -65,6 +73,17 @@ body {
     margin-left: 30px;
    
     
+}
+
+.menu-item:first-child {
+    margin-left: 100px;
+}
+.menu-item:nth-child(3) {
+     margin-right: 200px;
+}
+
+.menu-item:last-child {
+    margin-right: 100px;
 }
 
 .menu-item >a {
