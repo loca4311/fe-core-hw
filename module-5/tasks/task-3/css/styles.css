@@ -1,0 +1,49 @@
+* {     
+    box-sizing: border-box;
+    
+    padding: 0;
+    margin: 0;
+    
+}
+
+.wrapper {
+    width: 1024px;
+    margin: auto;
+}
+
+.link {
+    display: block;
+}
+
+.semicircle-link {
+    width: 15px;
+    height: 30px;
+    border-radius: 50% 0 0 50%;
+    background-color: #38afe5;
+
+}
+
+.circle-link {
+    position: relative;
+    
+    float: left;
+    width: 30px;
+    height: 30px;
+    background: url(../img/circle.jpg);
+    text-align: center;
+    opacity: 0.4;
+    text-decoration: none;
+}
+
+.circle-link:hover {
+    opacity: 1.0;
+}
+
+.circle-link::before {
+    position: absolute;
+    left: 50%;
+    top: 45%;
+    transform: translate(-50%, -50%);
+    content: "\2194";
+    color: #ffffff;
+}
