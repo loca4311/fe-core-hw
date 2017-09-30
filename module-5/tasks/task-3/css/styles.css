@@ -16,23 +16,32 @@
 }
 
 .semicircle-link {
-    width: 15px;
-    height: 30px;
-    border-radius: 50% 0 0 50%;
+    float: left;
+    width: 75px;
+    height: 150px;
+    border-radius: 100% 0 0 100% / 50% 0 0 50%;
+    text-align: center;
+    opacity: 0.4;
+    text-decoration: none;
     background-color: #38afe5;
+    margin-right: 50px;
+}
 
+.semicircle-link:hover {
+    opacity: 1.0;
 }
 
 .circle-link {
     position: relative;
     
     float: left;
-    width: 30px;
-    height: 30px;
-    background: url(../img/circle.jpg);
+    width: 150px;
+    height: 150px;
+    border-radius: 100% 100% 100% 100%;
     text-align: center;
     opacity: 0.4;
     text-decoration: none;
+    background-color: #38afe5
 }
 
 .circle-link:hover {
@@ -40,10 +49,25 @@
 }
 
 .circle-link::before {
+    
+    
     position: absolute;
-    left: 50%;
-    top: 45%;
+    left: 30%;
+    top: 50%;
     transform: translate(-50%, -50%);
-    content: "\2194";
+    content: "\2190";
+    font-size: 50px;
+    color: #ffffff;
+}
+
+.circle-link::after {
+    
+    
+    position: absolute;
+    left: 70%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    content: "\2192";
+    font-size: 50px;
     color: #ffffff;
 }
