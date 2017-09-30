@@ -25,6 +25,7 @@ body {
 }
 
 .semicircle-link {
+    position: relative;
     float: left;
     width: 75px;
     height: 150px;
@@ -33,7 +34,7 @@ body {
     opacity: 0.4;
     text-decoration: none;
     background-color: #38afe5;
-    margin-right: 50px;
+    
 }
 
 .semicircle-link:hover {
@@ -44,9 +45,9 @@ body {
     position: relative;
     
     float: left;
-    width: 150px;
+    width: 75px;
     height: 150px;
-    border-radius: 100% 100% 100% 100%;
+    border-radius: 0 100% 100% 0 / 0 50% 50% 0;
     text-align: center;
     opacity: 0.4;
     text-decoration: none;
@@ -57,11 +58,11 @@ body {
     opacity: 1.0;
 }
 
-.circle-link::before {
+.semicircle-link::before {
     
     
     position: absolute;
-    left: 30%;
+    left: 50%;
     top: 50%;
     transform: translate(-50%, -50%);
     content: "\2190";
@@ -73,7 +74,7 @@ body {
     
     
     position: absolute;
-    left: 70%;
+    left: 50%;
     top: 50%;
     transform: translate(-50%, -50%);
     content: "\2192";

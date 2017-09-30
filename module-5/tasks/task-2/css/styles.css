@@ -104,6 +104,12 @@ nav {
     color: #263555;
 }
 
+.submenu__item > a {
+    display: inline-block;
+    height: 40px;
+    text-decoration: none;
+    line-height: 40px;
+  }
 
 
 
