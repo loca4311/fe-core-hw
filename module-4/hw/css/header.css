@@ -1,34 +1,12 @@
-* {     
-    box-sizing: border-box;
-    
-    padding: 0;
-    margin: 0;
-    
-}
-
-body {
-    min-height: 100vh;
-    background: url(../img/bg.jpg);
-    background-size: cover;
-    background-attachment: fixed;
-    background-repeat: no-repeat;
-
-}
-
-.wrapper {
-    width: 1024px;
-    margin: auto;
-}
-
 nav {
     position: relative;
 }
 
 .page-header {
     padding-top: 104px;
-    padding-right: 50px;
-    padding-left: 50px;
-    padding-bottom: 126px;
+    padding-right: 100px;
+    padding-left: 100px;
+    padding-bottom: 100px;
     
 }
 
@@ -37,8 +15,7 @@ nav {
     left: 50%;
     top: 50%;
     transform: translate(-50%,-50%);
-    display: inline-block;
-    
+ 
     
     height: 138px;
     width: 138px;
@@ -76,7 +53,7 @@ nav {
     
     
     float: left;
-    margin-right: 30px;
+    margin-right: 14px;
     margin-left: 30px;
    
     
@@ -111,8 +88,8 @@ nav {
     
     display: none;
     position: absolute;
-    top: 45px;
-    left: -5px;
+    top: 40px;
+    left: 5px;
     height: 84px;
     width: 66px;
     list-style: none;
@@ -143,7 +120,7 @@ nav {
     text-decoration: none;
     vertical-align: middle;
     padding-left: 10px;
-    color: #788092;
+        color: #788092;
 }
 
 .menu-item:hover>.submenu {

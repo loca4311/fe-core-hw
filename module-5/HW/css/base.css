@@ -16,6 +16,8 @@ body {
 }
 
 .wrapper {
+    position: relative;
+    
     width: 1024px;
     margin: auto;
     
@@ -72,7 +74,7 @@ body {
 .circle-link {
     position: fixed;
     top: 75%;
-    left: 85%;
+    left: 77%;
     width: 30px;
     height: 30px;
     border-radius: 100% 100% 100% 100%;
