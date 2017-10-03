@@ -1,0 +1,135 @@
+nav {
+    position: relative;
+}
+
+.page-header {
+    padding-top: 104px;
+    padding-right: 100px;
+    padding-left: 100px;
+    padding-bottom: 100px;
+    
+}
+
+.home-page {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+ 
+    
+    height: 138px;
+    width: 138px;
+    
+    border-radius: 50%;
+    background-color: #ffffff;
+    
+    display: block;
+    text-decoration: none;
+    text-align: center;
+    line-height: 138px;
+    font-size: 60px;
+    font-family: Dorsa, Regular Arial, sans-serif;
+    text-transform: uppercase;
+    color: #263555;
+    
+}
+
+
+.menu {
+    
+    width: 100%;
+    list-style: none;
+    text-transform: uppercase;
+    font-size: 28px;
+    font-family: Pathway Gothic One;
+    
+    
+   
+
+}
+
+.menu-item {
+    position: relative;
+    
+    
+    float: left;
+    margin-right: 20px;
+    margin-left: 30px;
+   
+    
+}
+
+.menu-item:first-child {
+    margin-left: 0;
+}
+.menu-item:nth-child(3) {
+     margin-right: 260px;
+}
+
+.menu-item:last-child {
+    margin: 0;
+}
+
+.menu-item >a {
+    
+    text-decoration: none;
+    color: #ffffff;
+
+    
+}
+
+.menu-item >a:hover {
+    color: #263555;
+}
+
+
+
+.submenu {
+    
+    display: none;
+    position: absolute;
+    top: 40px;
+    left: -5px;    
+    height: 84px;
+    width: 66px;
+    list-style: none;
+    text-transform: uppercase;
+    font-size: 20px;
+    font-family: Pathway Gothic One;
+    background: #ffffff;
+    border-radius: 5px;
+
+
+}
+
+.submenu::before {
+    content: '';
+    position: absolute;
+    top: -10px;
+    left: 27px;
+    border: 5px solid transparent;
+    border-bottom: 5px solid #ffffff;
+}
+
+.submenu__item {
+    position: relative;
+}
+
+.submenu__item > a {
+    display: inline-block;
+    text-decoration: none;
+    vertical-align: middle;
+    padding-left: 10px;
+        color: #788092;
+}
+
+.menu-item:hover>.submenu {
+    display: block;
+
+}
+
+.clearfix::after {
+    display: block;
+    content: '';
+    clear: both;
+}

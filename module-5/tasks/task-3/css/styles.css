@@ -24,17 +24,30 @@ body {
     display: block;
 }
 
+.semicircle-link {
+    position: relative;
+    float: left;
+    width: 75px;
+    height: 150px;
+    border-radius: 100% 0 0 100% / 50% 0 0 50%;
+    text-align: center;
+    opacity: 0.4;
+    text-decoration: none;
+    background-color: #38afe5;
+    
+}
 
-
-
+.semicircle-link:hover {
+    opacity: 1.0;
+}
 
 .circle-link {
-    position: fixed;
-    top: 80%;
-    left: 80%;
-    width: 30px;
-    height: 30px;
-    border-radius: 100% 100% 100% 100%;
+    position: relative;
+    
+    float: left;
+    width: 75px;
+    height: 150px;
+    border-radius: 0 100% 100% 0 / 0 50% 50% 0;
     text-align: center;
     opacity: 0.4;
     text-decoration: none;
@@ -45,7 +58,17 @@ body {
     opacity: 1.0;
 }
 
-
+.semicircle-link::before {
+    
+    
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    content: "\2190";
+    font-size: 50px;
+    color: #ffffff;
+}
 
 .circle-link::after {
     
@@ -54,7 +77,8 @@ body {
     left: 50%;
     top: 50%;
     transform: translate(-50%, -50%);
-    content: "\2191";
-    font-size: 15px;
+    content: "\2192";
+    font-size: 50px;
     color: #ffffff;
 }
+
