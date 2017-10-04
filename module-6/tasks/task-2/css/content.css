@@ -1,0 +1,30 @@
+.gallery-header {
+    text-transform: uppercase;
+    font-size: 32px;
+    font-family: 'Pathway Gothic One', sans-serif;
+    color: #263555;
+    line-height: 4;
+    
+}
+
+.gallery {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-content: space-between;
+   
+}
+
+.item { 
+    position: relative;
+    height: 164px;
+    width: 32%;
+    
+}
+
+.gallery-item {
+    height: 100%;
+    width: 100%;
+}
+
+
