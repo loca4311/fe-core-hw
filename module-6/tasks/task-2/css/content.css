@@ -43,8 +43,8 @@
 
 .zoom-icon {
     width: 34px;
-    height: 34px;
-    background: url('css_sprites.png') -130px -10px;
+    height: 33px;
+    background: url(img/css_sprites.png) -130px -10px;
     
 }
 
