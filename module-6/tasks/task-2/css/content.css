@@ -15,7 +15,7 @@
 }
 
 .item { 
-    position: relative;
+    display: flex;
     height: 10.25rem;
     width: 32%;
     margin-bottom: 2.5rem;
@@ -29,22 +29,21 @@
 .gallery-item {
     height: 100%;
     width: 100%;
-}
-
-.zoom {
-    position: absolute;
-    top: 0;
-    display: block;
-    height: 100%;
-    width: 100%;
-    background-color: #000000;
-    filter: opacity(.4);
-}
-
-.zoom-icon {
-    width: 2rem;
-    height: 2.0625rem;
-    background: url(img/css_sprites.png) -130px -10px;
     
+
+}
+
+.gallery-item:hover {
+    background-color: #000;
+    filter: opacity(.8);
+}
+
+
+
+
+.bg-zoom {
+    display: block;
+    width: 33px; height: 33px;
+    background: url('../img/css_sprites.png') -130px -10px;
 }
 
