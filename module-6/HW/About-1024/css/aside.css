@@ -1,12 +1,13 @@
 .sidebar {
     width: 30%;
     
-    
+    float: right;
 
 }
 
-.list {
-    
+.side-list {
+    display: flex;
+    flex-wrap: wrap;
     list-style: none;
     counter-reset: list;
     width: calc(100% - 20px);
@@ -21,15 +22,15 @@
     margin-bottom: 16px;
 }
 
-.list-item {
+.side-list-item {
     margin-bottom: 34px;
 }
 
-.list-item:last-child {
+.side-list-item:last-child {
     margin-bottom: 0;
 }
 
-.list-item::before {
+.side-list-item::before {
     float: left;
     display: inline-block;
     counter-increment: list;
@@ -57,5 +58,3 @@
     float: left;
     width: calc(100% - 40px);
 }
-
-

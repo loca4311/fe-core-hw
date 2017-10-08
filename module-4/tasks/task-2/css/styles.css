@@ -10,22 +10,22 @@
     padding-top: 0px;
 }
 
-.list {
+.bottom-list {
     list-style: none;
     column-count: 2;
 }
 
-.list-item {
+.bottom-list-item {
     list-style: none;
     margin-top: 20px; 
 }
 
-.list-item:first-child {
+.bottom-list-item:first-child {
     margin-top: 0;
 }
 
 
-li::before {
+.bottom-list-item::before {
     width: 10px;
     height: 6px;
     content: "\2192";
@@ -35,7 +35,7 @@ li::before {
 }
 
  
-a {
+.bottom-list-link {
     text-decoration: none;
     color: #515d77;
     font-size: 14px;
