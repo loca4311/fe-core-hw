@@ -2,7 +2,13 @@
     box-shadow: 0 0 20px rgba(0,0,0,0.7)
 }
 
+.footer-items {
+    display: flex;
+    background-color: #263555;
+}
+
 .list {
+    width: 70%;
     text-align: center;
     padding: 1.25rem;
     background-color: #263555;
@@ -25,6 +31,14 @@
     text-transform: uppercase;
     color: #ffffff;
     font-family: 'Open Sans', sans-seri
+}
+
+.contact {
+    padding: 20px;
+    font-size: 0.75rem;
+    
+    color: #d6dade ;
+    font-family: 'Open Sans', sans-serif;
 }
 
 .icon-links {

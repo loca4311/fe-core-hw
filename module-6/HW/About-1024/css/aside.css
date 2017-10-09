@@ -1,13 +1,8 @@
 .sidebar {
-    width: 30%;
-    
-    float: right;
-
+    flex-basis: 30%;
 }
 
 .side-list {
-    display: flex;
-    flex-wrap: wrap;
     list-style: none;
     counter-reset: list;
     width: calc(100% - 20px);
@@ -23,6 +18,7 @@
 }
 
 .side-list-item {
+    display: flex;
     margin-bottom: 34px;
 }
 
@@ -31,7 +27,7 @@
 }
 
 .side-list-item::before {
-    float: left;
+    
     display: inline-block;
     counter-increment: list;
     content: counter(list);
@@ -55,6 +51,5 @@
     
 }
 .article {
-    float: left;
     width: calc(100% - 40px);
 }

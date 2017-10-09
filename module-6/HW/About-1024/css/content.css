@@ -1,14 +1,15 @@
 .first-content {
     display: flex;
+    justify-content: space-between;
     border-bottom: 0.0625rem solid #BEBEBE;
     padding-bottom: 1.875rem;
 }
 
 .content{
-    
-    width: 70%;
-    padding-right: 3.175rem;
+    flex-basis: 65%;
 }
+ 
+
 
 .article-head {
     color: #263555;
@@ -38,12 +39,12 @@
 
 .second-content {
     display: flex;
+    justify-content: space-between;
     padding-top: 3.125rem;
 }
 
 .about {
-    width: 70%;
-    padding-right: 3.125rem;
+    flex-basis: 65%;
 }
 
 .bottom-list {
@@ -80,7 +81,7 @@
 }
 
 .second-aside {
-    width: 30%;
+    flex-basis: 30%;
 }
 
 
