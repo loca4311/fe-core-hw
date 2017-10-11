@@ -1,0 +1,66 @@
+.page {
+    display: flex;
+}
+
+.header {
+    color: #263555;
+    text-transform: uppercase;
+    font-size: 2rem;
+    font-family: Pathway Gothic One;
+    margin-bottom: 20px;
+}
+
+.inputs {
+    flex-basis: 20%; 
+   
+}
+
+.contact {
+    display: flex;
+    
+    flex-direction: column;
+}
+
+.input {
+    margin-bottom: 1rem;
+    padding: 5px;
+    color: #263555;
+    border: 1px solid #d4d0d0;
+    background-color: #fcfafa;
+    
+}
+
+::-webkit-input-placeholder {
+    color: #263555;
+    font-family:  'Patua One', cursive;
+    text-transform: uppercase;
+}
+
+.input-text {
+    resize: none;
+}
+.btns {
+    display: flex;
+    flex-basis: 30%;
+    justify-content: flex-end;
+    
+}
+
+.btn {
+    border-radius: 5px;
+    padding: 0.3rem;
+    width: 6rem;
+    font-family:  'Patua One', cursive;
+    color: #263555;
+    border: 1px solid #d4d0d0;
+    background-color: #fcfafa;
+}
+
+.clear {
+    margin-right: 0.5rem;
+}
+
+
+::-webkit-input-placeholder {
+    color: #263555;
+}

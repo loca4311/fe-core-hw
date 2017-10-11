@@ -7,7 +7,7 @@
 
 body {
     min-height: 100vh;
-    background: url(../../img/bg.jpg);
+    background: url(../img/bg.jpg);
     background-size: cover;
     background-attachment: fixed;
     background-repeat: no-repeat;
@@ -50,15 +50,6 @@ body {
     opacity: 1.0;
 }
 
-.head {
-    
-    text-transform: uppercase;
-    color: #263555;
-    font-size: 32px;
-    font-family: Gill Sans MT Condensed;
-    
-    margin-bottom: 50px;
-}
 
 
 .circle-link::after {

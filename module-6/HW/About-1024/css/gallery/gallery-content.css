@@ -4,7 +4,7 @@
     text-transform: uppercase;
     font-size: 2rem;
     font-family: 'Pathway Gothic One', sans-serif;
-    color: var(--blue-color);
+    color: #263555;
     line-height: 4;
     
 }
@@ -56,7 +56,7 @@
     left: 50%;
     transform: translate(-50%, -50%);
     width: 33px; height: 33px;
-    background: url('../img/css_sprites.png') -10px -10px;
+    background: url('../../img/css_sprites.png') -10px -10px;
    
 }
 
