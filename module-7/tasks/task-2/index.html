@@ -8,6 +8,7 @@
     <link href="https://fonts.googleapis.com/css?family=Dorsa" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Pathway+Gothic+One" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Source+Code+Pro" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Patua+One" rel="stylesheet">
     <title>Task-1</title>
 </head>
@@ -70,19 +71,55 @@
         <!-- Content -->
 
         <div class="page">
-            <section class="inputs">
-                <h2 class="header">contact us</h2>
-                
-                    <form class="contact" action="#" method="get">
-                        <input class="input-name input" type="text " name="name" placeholder="Name" required>
-                        <input class="input-email input" type="email" name="name" placeholder="Email" required placeholder="Enter a valid email address">
-                        <textarea class="input-text input" name="anytext" id="" cols="30" rows="20" placeholder="Message"></textarea>
-                        <div class="btns">
-                            <button class="clear btn" type="reset">Clear</button>
-                            <button class="send btn" type="submit">Send</button>
-                        </div>
-                    </form>
-                
+            <section class="tours-search">
+                <div class="browse">
+                    <h2>browse</h2>
+                    <h4>Browse by tour Operator</h4>
+                    <div class="form-select">
+                        <select class="browse-by" name="browse" id="">
+                        <option value="1">Browse by tour Operator</option>
+                        <option value="2">...</option>
+                    </select>
+                    </div>
+                    <button class="send btn" type="submit">Seach</button>
+                </div>
+                <div class="search">
+                    <h2>search</h2>
+                    <h4 class="all">All tour operators</h4>
+                    <h4>Destination</h4>
+                    <div class="form-select">
+                        <select class="dest" name="destination" id="">
+                            <option value="1">Any destination</option>
+                            <option value="2">...</option>
+                    </select>
+                    </div>
+                    <h4>Departing</h4>
+                    <div class="form-select">
+                        <select class="dep" name="departing" id="">
+                            <option value="1">Any departing</option>
+                            <option value="2">...</option>
+                    </select>
+                    </div>
+                    <h4>Price</h4>
+                    <div class="form-select">
+                        <select class="price" name="price" id="">
+                            <option value="1">Any price</option>
+                            <option value="2">...</option>
+                    </select>
+                    </div>
+                    <h4>Duration</h4>
+                    <div class="form-select">
+                        <select class="dur" name="duration" id="">
+                            <option value="1">Any duration</option>
+                            <option value="2">...</option>
+                    </select>
+                    </div>
+                    <button class="send btn" type="submit">Seach</button
+
+                </div>
+
+
+
             </section>
         </div>
 

@@ -1,0 +1,31 @@
+.page {
+    display: flex;
+}
+
+
+
+.tours-search {
+    flex-basis: 25%; 
+   
+}
+
+.browse {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 2rem;    
+}
+
+.browse-by {
+    margin-bottom: 1rem;
+}
+
+
+
+
+
+
+
+
+
+
+
