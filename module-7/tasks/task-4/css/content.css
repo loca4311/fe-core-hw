@@ -1,0 +1,61 @@
+.page {
+    display: flex;
+}
+
+
+
+.tables {
+    
+    flex-basis: 25%;
+
+}
+
+.table {
+
+    width: 100%;
+    margin-bottom: 2rem;
+    
+}
+
+
+
+.capt {
+    width: 70%;
+    font-size: 0.8rem;
+    text-align: left;
+    color: #263555;
+    font-family: Patua One;
+    margin-bottom: 0.6rem;
+}
+
+.contact-row {
+    width: 50%;
+    
+
+    font-size: 0.8rem;
+    color: #707070
+
+
+    
+}
+
+
+
+.contact-row a {
+    text-decoration: none;
+    color: #263555;
+}
+
+
+.contact-row a:hover {
+    text-decoration: underline;
+}
+
+
+
+
+
+
+
+
+
