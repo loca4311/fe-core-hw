@@ -1,0 +1,32 @@
+h2 {
+    color: #263555;
+    text-transform: uppercase;
+    font-size: 2rem;
+    font-family: Pathway Gothic One;
+    margin-bottom: 20px
+}
+
+h3 {
+    font-size: 0.7rem;
+    font-family: Open Sans;
+    color: #263555;
+}
+
+h4, p {
+    font-size: 9px;
+    font-family: 'Source Code Pro', monospace;
+    margin-bottom: 1rem;
+}
+
+h5 {
+    text-transform: uppercase;
+    font-size: 1rem;
+    font-family: Pathway Gothic One;
+    color: #273d57;
+
+}
+
+li {
+    list-style-type: none;
+}
+

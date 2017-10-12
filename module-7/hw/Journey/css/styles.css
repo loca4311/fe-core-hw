@@ -1,3 +1,6 @@
+@import 'typography.css';
 @import 'base.css';
+@import 'btns.css';
+@import 'selects.css';
 @import 'header.css';
 @import 'footer.css';
