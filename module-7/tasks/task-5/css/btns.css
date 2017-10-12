@@ -1,0 +1,15 @@
+.btn {
+    border-radius: 5px;
+    padding: 0.2rem;
+    width: 3rem;
+    color: #263555;
+    font-family:  'Patua One', cursive;
+    border: 1px solid #d4d0d0;
+    background-color: #fcfafa;
+}
+
+
+.all {
+    color: #38afe5;
+    margin: 0;
+}
