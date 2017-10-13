@@ -5,7 +5,7 @@
 }
 
 .tables {
-    
+    margin-top: 3.5rem;
     flex-basis: 20%;
 
 }
@@ -29,7 +29,7 @@
 }
 
 .contact-row {
-    width: 50%;
+    
     
 
     font-size: 0.8rem;
@@ -68,13 +68,9 @@
    
 }
 
-.contact {
-    display: flex;
-    
-    flex-direction: column;
-}
 
 .input {
+    width: 100%;
     margin-bottom: 1rem;
     padding: 5px;
     color: #263555;
@@ -94,7 +90,7 @@
 }
 .btns {
     display: flex;
-    flex-basis: 30%;
+    
     justify-content: flex-end;
     
 }

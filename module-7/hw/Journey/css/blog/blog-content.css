@@ -55,24 +55,25 @@
     color: #868f8f;
     font-size: 0.625rem;
     font-family: Open Sans;
+    margin-bottom: 0;
     
 
 }
 
 .article-img {
-    width: 50%;
-    height: 220px;
-    padding: 0 15px 0 0;
+    flex-basis: 35%;
+    width: 45%;
+    
 }
 
 .article { 
     display: flex;
     padding-bottom: 2.5rem;
-    margin-bottom: 2.5rem;
     border-bottom: 2px solid #DDDDDD;
-    
-        
-    
+}
+
+.article:last-child {
+ 
 }
 
 
@@ -115,7 +116,7 @@
 }
 
 .side-list-item:last-child {
-    margin-top: 0;
+    margin-bottom: 0;
    
 }
 
