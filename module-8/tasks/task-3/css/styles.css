@@ -1,0 +1,45 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+
+}
+
+.wrapper {
+    min-width: 20rem;
+    max-width: 60rem;
+    margin: auto;
+}
+
+.header {
+    height: 10rem;
+    background-color: #be5e5e;
+    margin-bottom: 1rem;
+}
+
+.content, .sidebar {
+    height: 20rem;
+}
+
+.content {
+    background-color: yellow;
+}   
+
+.sidebar {
+    background-color: green;   
+}
+
+@media (min-width: 48rem) {
+    .main-content {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .content {
+        flex-basis: 68%;
+    }
+
+    .sidebar {
+        flex-basis: 30%;
+    }
+}
