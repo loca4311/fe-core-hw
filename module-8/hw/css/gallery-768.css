@@ -1,0 +1,33 @@
+@media (min-width: 768px) {
+
+    .wrapper {
+        max-width: 48rem;
+    }
+
+    .page-header {
+        padding: 1.5rem 8.5rem 1.5rem 6.5rem;
+    }
+
+    .submenu {
+        left: 44%;
+    }
+    
+
+    .gallery {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+
+    .item {
+        flex-basis: 49%;
+    }
+
+    .item:last-child {
+        display: none;
+    }
+
+    .contacts {
+        padding: 0rem 8rem;
+    }
+}
