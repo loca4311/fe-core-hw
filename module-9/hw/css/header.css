@@ -1,5 +1,5 @@
 .page-header {
-   
+   position: relative;
     
     padding: 1.5rem 6.5rem 1.5rem 6.5rem;
     
@@ -69,13 +69,13 @@
     
     display: none;
     position: absolute;
-    top: 20%;
-    left: 48%;    
+    top: auto;
+    left: 44%;    
     height: 5.25rem;
     width: 4.125rem;
     list-style: none;
     text-transform: uppercase;
-    font-size: 1.25rem;
+    font-size: 1.1rem;
     font-family: Pathway Gothic One;
     background: #ffffff;
     border-radius: 0.3125rem;

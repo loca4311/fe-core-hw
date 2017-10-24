@@ -1,6 +1,6 @@
-@media (min-width: 1024px) {
+@media (min-width: 1200px) {
     .wrapper {
-        min-width: 64rem;
+        max-width: 64rem;
     }
     /*  */
     nav {
@@ -11,10 +11,14 @@
         padding: 6.5rem 6.25rem 6.25rem 6.25rem;
     }
 
+    .header {
+        margin: 0;
+    }
+
     .home-page {
         position: absolute;
         left: 50%;
-        top: 18%;
+        top: 50%;
         transform: translate(-50%, -50%);
 
         height: 8.375rem;
@@ -27,7 +31,7 @@
 
     .menu {
         display: block;
-        margin-bottom: 5rem;
+       
         height: 0;
 
     }
@@ -35,7 +39,7 @@
     .menu-item {
         position: relative;
         float: left;
-        margin-right: 3.25rem;
+        margin-right: 2.8rem;
 
         font-size: 1.75rem;
     }
@@ -55,11 +59,9 @@
     }
 
     /* CONTENT */
-    .item {
-        flex-basis: 32%;
-    }
+    
 
-    .item:last-child {
+    .last:last-child {
         display: block;
     }
 

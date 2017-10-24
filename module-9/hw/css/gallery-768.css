@@ -9,16 +9,15 @@
     }
 
     .submenu {
-        left: 44%;
+        left: 45%;
     }
     
 
     
-    
 
-    .item:last-child {
-        display: none;
-    }
+   .last:last-child {
+       display: none;
+   }
 
     .contacts {
         padding: 0rem 8rem;
