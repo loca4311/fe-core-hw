@@ -1,6 +1,6 @@
 @media (min-width: 1024px) {
     .wrapper {
-        max-width: 64rem;
+        min-width: 64rem;
     }
     /*  */
     nav {
@@ -12,6 +12,10 @@
     }
 
     .home-page {
+        position: absolute;
+        left: 50%;
+        top: 18%;
+        transform: translate(-50%, -50%);
 
         height: 8.375rem;
         width: 8.375rem;

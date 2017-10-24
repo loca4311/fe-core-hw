@@ -1,15 +1,13 @@
 .page-header {
-    justify-content: center;
-    display: flex;
-    flex-wrap: wrap;
-    padding: 1.5rem 0rem 1.5rem 0rem;
+   
+    
+    padding: 1.5rem 6.5rem 1.5rem 6.5rem;
     
 }
 
-
 .header {
-    
-    
+    display: flex;
+    justify-content: center;
     margin-bottom: 2rem;
 }
 .home-page {
