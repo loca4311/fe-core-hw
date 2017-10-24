@@ -1,0 +1,24 @@
+.content {
+    height: 12.5rem;
+    background-color: #c3c98b;
+}
+
+.sidebar {
+    height: 12.5rem;
+    background-color: #70856a;
+}
+
+.grid-item {
+    height: 12.5rem;
+    background-color: #c3c98b;
+}
+
+.pink-grid-item {
+    background-color: #8e6297;
+}
+
+@media (min-width: 768px) {
+    .bottom-content {
+        padding-top: 2rem;
+    }
+}
