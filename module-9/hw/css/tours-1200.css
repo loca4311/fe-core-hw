@@ -1,0 +1,5 @@
+@media (min-width: 1200px) {
+    .tours-search {
+        flex-wrap: wrap;
+    }
+}

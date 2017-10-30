@@ -1,0 +1,21 @@
+@media (min-width: 768px) {
+    .tour-img {
+        width: 50%;
+    }
+
+    .capt-header {
+        margin-bottom: 0;
+    }
+    
+    p {
+        margin-bottom: 0.1rem;
+    }
+    
+    .tours-search {
+        display: flex;
+    } 
+
+    .smaller-text {
+        font-size: smaller;
+    }
+}

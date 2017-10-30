@@ -1,0 +1,12 @@
+
+
+@media (min-width: 1200px) {
+    
+    .first-content {
+        display: flex;
+    }
+    
+    .side-list {
+        flex-wrap: wrap;
+    }
+}
