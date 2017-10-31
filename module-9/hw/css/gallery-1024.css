@@ -2,7 +2,48 @@
 
     /* CONTENT */
     
-    
+    nav {
+        position: relative;
+    }
+    .page-header {
+        padding: 6.5rem 6.25rem 6.25rem 6.25rem;
+    }
+    .header {
+        margin: 0;
+    }
+    .home-page {
+        position: absolute;
+        left: 50%;
+        top: 50%;
+        transform: translate(-50%, -50%);
+        height: 8.375rem;
+        width: 8.375rem;
+        line-height: 8.625rem;
+        font-size: 4.75rem;
+    }
+    .menu {
+        display: block;
+        height: 0;
+    }
+    .menu .menu-item:first-child {
+        padding-left: 4rem;
+    }
+    .menu-item {
+        position: relative;
+        float: left;
+        margin-right: 2.8rem;
+        font-size: 1.75rem;
+    }
+    .menu-item:nth-child(3) {
+        margin-right: 16.25rem;
+    }
+    .menu-item:last-child {
+        margin: 0;
+    }
+    .submenu {
+        top: 2.5rem;
+        left: -0.3125rem;
+    }
 
     .gallery .row [class*="col-"]:last-child {
         display: block;

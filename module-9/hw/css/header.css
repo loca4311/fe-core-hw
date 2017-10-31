@@ -1,8 +1,6 @@
 .page-header {
-   position: relative;
-    
+    position: relative;
     padding: 1.5rem 6.5rem 1.5rem 6.5rem;
-    
 }
 
 .header {
@@ -10,13 +8,12 @@
     justify-content: center;
     margin-bottom: 2rem;
 }
+
 .home-page {
     height: 4.375rem;
     width: 4.375rem;
-    
     border-radius: 50%;
     background-color: #ffffff;
-    
     display: block;
     text-decoration: none;
     text-align: center;
@@ -25,12 +22,9 @@
     font-family: Dorsa, Regular Arial, sans-serif;
     text-transform: uppercase;
     color: #263555;
-    
 }
 
-
 .menu {
-
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
@@ -43,16 +37,12 @@
     font-size: 1.4rem;
     font-family: Pathway Gothic One;
     margin-bottom: 2rem;
-   
-
 }
 
 .menu-item {
     display: block;
     flex-wrap: wrap;
-    flex-basis:26%    
-
-    
+    flex-basis: 26%
 }
 
 .menu-item-link {
@@ -60,17 +50,15 @@
     color: #ffffff;
 }
 
-.menu-item >a:hover {
+.menu-item>a:hover {
     color: #263555;
 }
 
-
 .submenu {
-    
     display: none;
     position: absolute;
     top: auto;
-    left: 44%;    
+    left: 44%;
     height: 5.25rem;
     width: 4.125rem;
     list-style: none;
@@ -79,8 +67,6 @@
     font-family: Pathway Gothic One;
     background: #ffffff;
     border-radius: 0.3125rem;
-
-
 }
 
 .submenu::before {
@@ -96,7 +82,7 @@
     position: relative;
 }
 
-.submenu__item > a {
+.submenu__item>a {
     display: inline-block;
     text-decoration: none;
     vertical-align: middle;
@@ -105,73 +91,5 @@
 
 .menu-item:hover>.submenu {
     display: block;
-
 }
 
-
-@media (min-width: 1200px) {
-    
-        
-        /*  */
-        nav {
-            position: relative;
-        }
-    
-        .page-header {
-            padding: 6.5rem 6.25rem 6.25rem 6.25rem;
-        }
-    
-        .header {
-            margin: 0;
-        }
-    
-        .home-page {
-            position: absolute;
-            left: 50%;
-            top: 50%;
-            transform: translate(-50%, -50%);
-    
-            height: 8.375rem;
-            width: 8.375rem;
-    
-            line-height: 8.625rem;
-            font-size: 4.75rem;
-    
-        }
-    
-        .menu {
-            display: block;
-           
-            height: 0;
-    
-        }
-
-        .menu .menu-item:first-child {
-            padding-left: 4rem; 
-        }
-    
-        .menu-item {
-            position: relative;
-            float: left;
-            margin-right: 2.8rem;
-    
-            font-size: 1.75rem;
-        }
-    
-        .menu-item:nth-child(3) {
-            margin-right: 16.25rem;
-       }
-       .menu-item:last-child {
-        margin: 0;
-        }   
-    
-       
-    
-        .submenu {
-            top: 2.5rem;
-            left: -0.3125rem; 
-        }
-
-
-
-    }
