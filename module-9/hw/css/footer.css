@@ -10,7 +10,7 @@
     flex-wrap: wrap;
     width: 100%;
     text-align: center;
-    padding: 1.25rem 5rem;
+    
     
     list-style: none;
     column-count: 5;
@@ -35,12 +35,12 @@
     width: 100%;
     display: flex;
     justify-content: space-between;
-    padding: 0rem 2rem;
+   
 }
 
 .contact {
     
-    padding: 20px;
+    
     font-size: 0.75rem;
     
     color: #d6dade ;
@@ -80,3 +80,14 @@
     width: 32px; height: 32px;
     background: url('../img/css_sprites.png') -10px -62px;
 }
+
+
+@media (min-width: 768px) {
+    .contacts {
+        
+        flex-wrap: wrap;
+    }
+
+    
+
+ }

@@ -7,6 +7,15 @@
     
 }
 
+.gallery .row [class*="col-"] {
+    padding-bottom: 1rem;
+}
+
+
+.gallery .row [class*="col-"]:last-child {
+    padding-bottom: 0;
+}
+
 
 
 .item {

@@ -12,14 +12,18 @@
         left: 45%;
     }
     
+    .gallery .row [class*="col-"]:nth-child(n+7) {
+        padding-bottom: 0;
+    }
 
+    .gallery .row [class*="col-"]:last-child {
+        display: none;
+    }
     
 
    .last:last-child {
        display: none;
    }
 
-    .contacts {
-        padding: 0rem 8rem;
-    }
+    
 }
