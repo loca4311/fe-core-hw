@@ -1,0 +1,10 @@
+.box {
+    width: 480px;
+    height: 320px;
+    background: url('https://placeimg.com/480/320/tech') no-repeat;
+  }
+  @media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi) {
+    .box {
+      background: url('https://placeimg.com/960/600/tech') no-repeat;
+    }
+  }
