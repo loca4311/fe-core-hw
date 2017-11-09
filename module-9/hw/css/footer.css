@@ -83,18 +83,9 @@
 
 
 @media (min-width: 768px) {
+   
     
-    .footer-items {
-        display: flex;
-    }
     
-    .contacts {
-        
-        flex-wrap: wrap;
-        padding: 0rem 2rem;
-        
-    }
-
     
 
  }

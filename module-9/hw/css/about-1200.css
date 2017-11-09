@@ -9,4 +9,8 @@
     .side-list {
         flex-wrap: wrap;
     }
+
+    .plane {
+        width: 53%;
+    }
 }
